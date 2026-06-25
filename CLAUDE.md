@@ -14,6 +14,19 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## GitHub
+
+Repository: https://github.com/jujubaprojects/projeto-python-acoes
+
+When the user asks to push changes, run:
+```
+git add -A
+git commit -m "<describe the change>"
+git push
+```
+
+Use `& "C:\Program Files\GitHub CLI\gh.exe"` if `gh` is not on PATH.
+
 ## Architecture
 
 Two-file structure with a clear separation of concerns:
